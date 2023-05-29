@@ -1,0 +1,9 @@
+address: https://test-stand.gb.ru
+sleep_time: 1
+browser: firefox
+wait: 3
+login: GB111110a9f722
+password: eb5fbb69de
+name: Алексей
+email: bormoleshka@gmil.com
+content: nwnwn123nnjn
