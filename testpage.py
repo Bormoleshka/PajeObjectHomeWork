@@ -37,7 +37,7 @@ class OperationsHelper(BasePage):
         logging.info(f"Find text {text} in error field {TestSearchLocators.LOCATOR_ERROR_FIELD[1]}")
         return text
         
-    def clic_contact_button(self):
+    def click_contact_button(self):
         logging.info("Click Contact button")
         self.find_element(TestSearchLocators.LOCATOR_CONTACT_BTN).click()
         
@@ -59,7 +59,7 @@ class OperationsHelper(BasePage):
         pass_field.clear()
         pass_field.send_keys(content)
         
-    def clic_contact_us_button(self):
+    def click_contact_us_button(self):
         logging.info("Click CONTACT US button")
         self.find_element(TestSearchLocators.LOCATOR_CONTACT_US_BTN).click()
         
